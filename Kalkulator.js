@@ -36,3 +36,4 @@ if (pilih == 1){
     console.log(hasil);
 }
 console.log("=============================================================")
+console.log("Terimakasih telah menggunakan kalkulator Sederhana")
