@@ -20,3 +20,19 @@ if (pilih == 1){
     var nilai2 = Number(b);
     hasil = nilai1 - nilai2
     console.log(hasil);
+}else if (pilih == 3){
+    var a = panggiluntukinput.questionInt("Masukkan nilai pertama: ");
+    var b = panggiluntukinput.questionInt("Masukkan nilai kedua: ");
+    var nilai1 = Number(a);
+    var nilai2 = Number(b);
+    hasil = nilai1 * nilai2
+    console.log(hasil);
+}else if (pilih == 4){
+    var a = panggiluntukinput.questionInt("Masukkan nilai pertama: ");
+    var b = panggiluntukinput.questionInt("Masukkan nilai kedua: ");
+    var nilai1 = Number(a);
+    var nilai2 = Number(b);
+    hasil = nilai1 / nilai2
+    console.log(hasil);
+}
+console.log("=============================================================")
